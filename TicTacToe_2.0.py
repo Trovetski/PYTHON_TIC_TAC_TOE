@@ -15,8 +15,8 @@ class App(Tk):
         Tk.__init__(self,None)#just a method to make the code simpler
 
         #the image objects
-        self.img1 = Image.open(r"C:\Users\DELL\Desktop\projects\SIMPLE_AI\X.png")
-        self.img2 = Image.open(r'C:\Users\DELL\Desktop\projects\SIMPLE_AI\O.png')
+        self.img1 = Image.open(r"X.png")#adress of X.png and Y.png
+        self.img2 = Image.open(r'O.png')
         self.imgx = ImageTk.PhotoImage(self.img1)
         self.imgo = ImageTk.PhotoImage(self.img2)
 
